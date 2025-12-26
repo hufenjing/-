@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+{% load static %}
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>{{ title }} | 天天生鲜商城</title>
+	<link rel="stylesheet" type="text/css" href="/static/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/main.css">
+	<script type="text/javascript" src="/static/js/jquery-1.12.4.min.js"></script>
+{#	<script type="text/javascript" src="/static/js/register.js"></script>#}
+    {% block head %}{% endblock head %}
+</head>
+<body>
+
+{% block body %}{% endblock body %}
+
+    <div class="footer no-mp">
+		<div class="foot_link">
+			<a href="#">小组成员</a>
+		</div>
+		<p>胡逢锦 张金辉 陈利凤 罗泽斌 乔晓栋 吴文近 王锦熙</p>
+		<p>大数据专升本1班</p>
+	</div>
+
+</body>
+</html>

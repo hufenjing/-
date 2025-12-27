@@ -1,0 +1,19 @@
+# 生鲜超市平台变更日志
+本项目所有显著变更都将记录在此文件中。
+格式遵循 [Keep a Changelog](https://keepachangelog.com/)，版本号遵循 [Semantic Versioning](https://semver.org/)。
+
+## [未发布]
+### Added
+- 待新增的功能
+
+### Changed
+- 待调整的内容
+
+### Fixed
+- 待修复的Bug
+
+
+## [1.0.0] - 2025-12-25
+- 项目初始化，完成基础架构搭建
+- 实现商品列表展示、用户注册登录核心功能
+- 配置基础数据库表结构

@@ -1,0 +1,22 @@
+# 生鲜超市平台贡献指南
+## 开发工作流
+本项目采用 **GitHub Flow** 工作流：
+1. 从`main`分支拉取最新代码
+2. 创建新分支开发功能/修复Bug
+3. 提交代码并推送到远程仓库
+4. 发起Pull Request（PR）
+5. 代码审核通过后合并到`main`分支
+
+## 分支命名规范
+请遵循以下分支命名格式：
+*   功能开发：`feat/[功能名称]`（例：`feat/add-order-trace`）
+*   Bug修复：`fix/[问题描述]`（例：`fix/goods-img-display`）
+*   文档更新：`docs/[文档名称]`（例：`docs/update-readme`）
+*   配置调整：`config/[配置项]`（例：`config/mysql-connect`）
+
+## Pull Request 模板
+发起PR时请包含以下信息：
+1. 关联Issue：（若有，填写Issue链接）
+2. 变更描述：本次PR实现的功能/修复的问题
+3. 测试情况：已完成的测试内容（例：“测试了商品列表查询、下单流程均正常”）
+4. 截图（若涉及UI变更）：附上功能页面截图
